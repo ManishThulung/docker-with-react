@@ -1,0 +1,2 @@
+build -> docker build -t react-app:dev .
+run => docker run -p 5173:5173 react-app:dev

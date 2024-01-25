@@ -13,3 +13,9 @@ RUN npm install
 
 # copy source dest
 COPY . .
+
+# set port number
+EXPOSE 5173
+
+# run the command, entry point can be only one entry cmd
+CMD [ "npm", "run", "dev" ]
