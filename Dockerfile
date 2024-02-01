@@ -1,7 +1,8 @@
 # installing node version 20
 FROM node:20-alpine
 
-# creating a working directory
+# creating a working directory in a container
+# everything will be inside this app folder
 WORKDIR /app
 
 # copying everythig that starts with package into /app folder
